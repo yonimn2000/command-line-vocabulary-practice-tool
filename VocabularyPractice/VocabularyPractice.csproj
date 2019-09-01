@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{7637A255-AD3F-4861-BD22-8D16363B36A3}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Vocabulary_Practice</RootNamespace>
-    <AssemblyName>Vocabulary Practice</AssemblyName>
+    <RootNamespace>YonatanMankovich.VocabularyPractice</RootNamespace>
+    <AssemblyName>YonatanMankovich.VocabularyPractice</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>

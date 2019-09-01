@@ -1,10 +1,11 @@
 ﻿using System;
 
-namespace Vocabulary_Practice
+namespace YonatanMankovich.VocabularyPractice
 {
     class Program
     {
-        static Words words = new Words("Words.csv");
+        static readonly Words words = new Words("Words.csv");
+
         static void Main(string[] args)
         {
             Test();

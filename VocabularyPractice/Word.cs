@@ -1,4 +1,4 @@
-﻿namespace Vocabulary_Practice
+﻿namespace YonatanMankovich.VocabularyPractice
 {
     class Word
     {
@@ -7,6 +7,7 @@
         public string Note { get; }
         public uint TimesCorrectlyAnswered { get; private set; }
         public uint TimesIncorrectlyAnswered { get; private set; }
+
         public enum ToStringOptions
         {
             Simple, CommaSeparated, TranslationWithNote, SimpleWithSuccessRate

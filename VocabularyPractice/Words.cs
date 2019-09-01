@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-namespace Vocabulary_Practice
+namespace YonatanMankovich.VocabularyPractice
 {
     class Words
     {
         public string PathToWordsFile { get; set; }
-        public List<Word> WordsList { get; set; }
+        public List<Word> WordsList { get; }
         public Word LastShowedWord { get; private set; }
+
         public enum ToStringOptions
         {
             Simple, CommaSeparated, SimpleWithSuccessRate
