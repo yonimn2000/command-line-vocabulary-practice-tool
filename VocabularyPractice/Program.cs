@@ -8,17 +8,13 @@ namespace YonatanMankovich.VocabularyPractice
 
         static void Main(string[] args)
         {
-            Test();
-        }
-
-        static void Test()
-        {
             if (words.WordsList.Count > 0)
             {
                 while (true)
                 {
                     Word word = words.GetNext();
                     Console.WriteLine("Type in Spanish: " + word.ToString(Word.ToStringOptions.TranslationWithNote));
+                    Console.Write("> ");
                     string input = Console.ReadLine();
                     if (input.Length > 0 && (input[0] == '/' || input[0] == '-'))
                         HandleOptions(input.Substring(1));
@@ -60,7 +56,7 @@ namespace YonatanMankovich.VocabularyPractice
             switch (option.ToLower())
             {
                 case "add":
-                    System.Diagnostics.Process.Start("Words.csv");
+                    System.Diagnostics.Process.Start(words.PathToWordsFile);
                     Environment.Exit(0);
                     break;
                 case "learn":
