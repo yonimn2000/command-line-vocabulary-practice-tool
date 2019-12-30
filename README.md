@@ -2,6 +2,10 @@
 
 A simple command line vocabulary practice tool.
 
+Practice a foreign language vocabulary in the command line.
+
+The program automatically picks the most missed and least studied words.
+
 ## Screenshots
 
 ![Correct Answer Screenshot](media/screenshot1.png)
